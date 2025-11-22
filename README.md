@@ -23,3 +23,37 @@ n<-0
               ecrireln("blocage")
      finsi      
 Fin
+2. reponse de question 2
+Algorithme exercice_2
+var
+a,b,c:entier 
+Début
+ecrire("entre le nombre a :")
+lire(a)
+ecrire("entre le nombre b:")
+lire(b)
+c<-a
+a<-b
+b<-c
+ecrire("le nombre a =", a , "et le nombre b =", b)
+FIN
+3. reponse de question 3
+Algorithme exercice_3
+var 
+a,b,pgcd,g :entier
+Début
+ecrire("entre le nombre a : ")
+	lire (a)
+	ecrire("entre le nombre b : ")
+	lire (b)
+	si b=0 alors 
+		    ecrire ("le pgcd  de ",a ,"et " , b, "est :" , a)
+		    sinon 
+		    repeter
+		    g<-a 
+		    a<-b
+		    b<- g mod b 
+		    jusqua b =0 
+		    ecrire (" le pgcd de de a et b est :", a)
+	finsi
+Fin
