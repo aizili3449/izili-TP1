@@ -112,3 +112,4 @@ pour i <- 1 à R pas 1 faire
     
 finpour
 Fin
+
