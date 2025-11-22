@@ -1,4 +1,8 @@
-# izili-TP1  
+# TP1  
+NIOM : IZILI
+PRENOM : ABDELJALIL
+REPONSE
+1. reponse de question 1
 Algorithme exercice_1
 var
 pin,n:entier
