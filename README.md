@@ -1,5 +1,5 @@
 # TP1  
-NIOM : IZILI
+NOM : IZILI
 PRENOM : ABDELJALIL
 REPONSE
 1. reponse de question 1
