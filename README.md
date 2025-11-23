@@ -118,7 +118,9 @@ Fin
 Algorithme deviner
 var
 n,k,A :entier
+B: chaine caractere
 Début
+repeter
 A<- aleatoire(1,100)
 k<-0
 	tantque k<5 faire		    
@@ -131,7 +133,7 @@ k<-0
 		    si n>A alors 
 		        		ecrireln("incorrect , trop grand ") 
 		        		sinon 
-		        		ecrireln ("incorrect , trop petite")	        		 
+		        		ecrireln ("incorrect , trop petit")	        		 
 		        		k<-k+1      
 		    finsi	
 		    finsi		    
@@ -139,6 +141,12 @@ k<-0
 	si k=5 alors
 	ecrireln	  (" le nombre est :",A)
 	finsi
+	ecrire ("tu peut rejouer ? :")
+	lire(B)
+	si B = oui alors 
+		    A<-aleatoire(1,100)
+		  finsi
+	jusqua b= non
 	ecrireln("au-revoir")
 Fin
 6.EXERCICE 6
